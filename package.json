@@ -1,0 +1,29 @@
+{
+	"name": "setup",
+	"version": "1.0.0",
+	"description": "",
+	"main": "server.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node server.js"
+	},
+	"author": "Lucas Barros Rocha",
+	"license": "ISC",
+	"dependencies": {
+		"aws-sdk": "^2.531.0",
+		"bcryptjs": "^2.4.3",
+		"body-parser": "^1.19.0",
+		"cheerio": "^1.0.0-rc.3",
+		"cors": "^2.8.5",
+		"express": "^4.17.1",
+		"fs": "0.0.1-security",
+		"jsonwebtoken": "^8.5.1",
+		"mysql2": "^1.7.0",
+		"path": "^0.12.7",
+		"sequelize": "^5.18.4",
+		"vash": "^0.12.6"
+	},
+	"devDependencies": {
+		"sequelize-cli": "^5.5.1"
+	}
+}
